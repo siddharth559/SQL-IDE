@@ -1,4 +1,6 @@
-import mysql.connector as mc
+try: import mysql.connector as mc
+except: pass
+
 import sqlite3 as sq
 import tkinter as tk
 
